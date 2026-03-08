@@ -1,7 +1,8 @@
 # HR Employee Attrition Analysis (Power BI)
+Interactive Power BI dashboard analyzing employee attrition patterns across 1,470 employees to identify key drivers of turnover.
 
 ## 🎯 Project Objective
-The goal of this project is to analyze employee attrition patterns using HR data and identify the key factors driving employee turnover. The analysis focuses on compensation, work-life balance, tenure, department differences, and travel requirements to provide actionable insights for improving employee retention.
+This project analyzes employee attrition patterns using HR data to identify key factors driving employee turnover. The analysis focuses on compensation, work-life balance, tenure, department differences, and travel requirements to provide actionable insights for improving employee retention.
 
 ---
 
@@ -16,6 +17,10 @@ The goal of this project is to analyze employee attrition patterns using HR data
 ---
 
 ## 📁 Dataset
+
+Source: IBM HR Attrition Dataset (Kaggle)  
+https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
+
 This project uses an HR analytics dataset containing information on **1,470 employees** including demographic information, job roles, compensation, work-life balance ratings, and employment history.
 
 Key attributes include:
@@ -35,9 +40,9 @@ Key attributes include:
 ## 🛠 Tools Used
 
 - **Power BI** – Dashboard development and visualization
-- **DAX** – Calculated measures and metrics
-- **Data Modeling** – Relationships and aggregation logic
-
+- **DAX** – Measures for attrition calculations
+- **Data Cleaning** – Data preparation and validation
+  
 ---
 
 ## 📈 Key Metrics
@@ -52,22 +57,22 @@ Key attributes include:
 
 ---
 
-## 🔍 Key Insights
+## 🔍 Key Attrition Drivers
 
 ### 1. Overtime Drives Attrition
 Employees working overtime show **30.5% attrition**, compared to **10.4% for employees without overtime**, indicating overwork as a major factor.
 
 ### 2. Entry-Level Compensation Risk
-Employees earning **below 5K salary show 21.8% attrition**, significantly higher than the **3.8% attrition for employees earning above 15K**.
+Employees earning below 5K have a **21.8% attrition rate**, significantly higher than the **3.8% attrition rate for employees earning above 15K**.
 
 ### 3. Early Tenure Risk
 Employees with **0–2 years at the company show nearly 30% attrition**, suggesting onboarding and early engagement issues.
 
-### 4. High-Risk Roles
-Certain roles such as **Laboratory Technicians and Sales Representatives** show significantly higher attrition than other positions.
+### 4. Attrition Concentrated in Specific Roles
+A large share of attrition comes from a small number of job roles, particularly Laboratory Technicians and Sales-related positions. This suggests retention issues are concentrated in operational and sales functions rather than evenly distributed across the organization.
 
 ### 5. Travel Requirements
-Employees who **travel frequently** have higher attrition rates compared to those who travel rarely or not at all.
+Employees who **travel frequently** show higher attrition compared to those who travel rarely or do not travel.
 
 ---
 
@@ -96,11 +101,11 @@ Introduce flexible work policies and employee wellness programs to improve reten
 powerbi-hr-attrition-analysis
 │
 ├── dashboard
-│ └── hr_attrition_dashboard.pbix
+│   └── hr_attrition_dashboard.pbix
 │
 ├── screenshots
-│ ├── dashboard_overview.png
-│ └── insights_page.png
+│   ├── dashboard_overview.png
+│   └── insights_page.png
 │
 └── README.md
 ```
@@ -111,7 +116,7 @@ powerbi-hr-attrition-analysis
 
 **Inderjeet Singh**
 
-Email:inderjeetsingh152005@gmail.com
+Email: inderjeetsingh152005@gmail.com  
 LinkedIn: https://www.linkedin.com/in/inderjeet-singh01/  
 GitHub: https://github.com/inderjeet-singh-data
 
