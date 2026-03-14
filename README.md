@@ -112,13 +112,14 @@ powerbi-hr-attrition-analysis
 
 ---
 
-## 📬 Contact
+## 🔗 Connect With Me
 
-**Inderjeet Singh**
+**Inderjeet Singh**  
+Aspiring Data Analyst | SQL | Excel | Power BI
 
-Email: inderjeetsingh152005@gmail.com  
-LinkedIn: https://www.linkedin.com/in/inderjeet-singh01/  
-GitHub: https://github.com/inderjeet-singh-data
+📧 Email: inderjeetsingh152005@gmail.com  
+💼 LinkedIn: https://www.linkedin.com/in/inderjeet-singh-data/ 
+💻 GitHub: https://github.com/inderjeet-singh-data
 
 ---
 
