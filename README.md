@@ -123,4 +123,6 @@ Aspiring Data Analyst | SQL | Excel | Power BI
 
 ---
 
+**⭐ If you found this project helpful, please consider giving it a star!**
+
 *Portfolio project for Data Analyst positions*
